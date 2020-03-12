@@ -9,7 +9,7 @@ function url_Earth2014(;res="5min")
 end
 
 function sha_Earth2014(;res="5min")
-    res == "1min" ? sha2_256 :
+    res == "1min" ? "c7350f22ccfdc07bc2c751015312eb3d5a97d9e75b1259efff63ee0e6e8d17a5" :
     res == "5min" ? "179d378b523ef59a2f27d3ef8c445174bb9b1b625a68e8775f82d61abcaaa876" :
     error("not a valid resolution")
 end
