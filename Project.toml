@@ -1,0 +1,13 @@
+name = "Earth2014"
+uuid = "e9bf6461-d004-4b32-878f-fe25c44bfa3e"
+authors = ["Benoit Pasquier <briochemc@gmail.com>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
