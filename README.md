@@ -32,7 +32,7 @@ which should show something like
 
 ### Reference
 
-The data you should cite is
+This is not my data. If you use this you should cite these guys:
 
 > Christian Hirt, Moritz Rexer,
 > Earth2014: 1 arc-min shape, topography, bedrock and ice-sheet models – Available as gridded data and degree-10,800 spherical harmonics,
@@ -41,6 +41,6 @@ The data you should cite is
 > 2015,
 > Pages 103-112,
 > ISSN 0303-2434,
-> 10.1016/j.jag.2015.03.001.
+> [10.1016/j.jag.2015.03.001](10.1016/j.jag.2015.03.001).
 
 Note the reference for the data should pop up when you `load()` it.
