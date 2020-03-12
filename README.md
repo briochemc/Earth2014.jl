@@ -41,6 +41,6 @@ This is not my data. If you use this you should cite these guys:
 > 2015,
 > Pages 103-112,
 > ISSN 0303-2434,
-> [10.1016/j.jag.2015.03.001](10.1016/j.jag.2015.03.001).
+> [10.1016/j.jag.2015.03.001](https://doi.org/10.1016/j.jag.2015.03.001).
 
 Note the reference for the data should pop up when you `load()` it.
