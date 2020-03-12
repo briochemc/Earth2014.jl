@@ -9,5 +9,5 @@ ENV["DATADEPS_ALWAYS_ACCEPT"] = true
     @test x isa Vector
     @test y isa Vector
     @test z isa Array
-    @test size(z) == (length(y), lenght(x))
+    @test size(z) == (length(y), length(x))
 end
