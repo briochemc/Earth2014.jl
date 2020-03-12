@@ -18,7 +18,7 @@ This will download the data via Datadeps.jl only once and make it available for 
 Then you can use it for your research, or just plot it for example:
 
 ```julia
-using Plots
+julia> using Plots
 
 julia> heatmap(x, y, z, clim=maximum(abs.(z)).*(-1,1), color=:topo)
 ```
