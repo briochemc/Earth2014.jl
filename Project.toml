@@ -1,7 +1,7 @@
 name = "Earth2014"
 uuid = "e9bf6461-d004-4b32-878f-fe25c44bfa3e"
 authors = ["Benoit Pasquier <briochemc@gmail.com>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
@@ -10,7 +10,7 @@ NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
 [compat]
 julia = "1"
 DataDeps = "0.7"
-NCDatasets = "0.10"
+NCDatasets = "0.9, 0.10"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
