@@ -54,15 +54,19 @@ citation() = """
              """
 
 """
-    load
+    load(; <keyword arguments>)
 
-Returns the Earth2014 data as a 2D array?
+Returns the Earth2014 data as a 2D array. 
+
+# Keyword arguments
+- `res::String`: The angular resolution of the data. Defaults to `"5min"`.
+- `hide_citation`: Hide the citation info. Defaults to `false`.
 """
-function load(;res="5min")
+function load(;res="5min", hide_citation=false)
     register_Earth2014(res=res)
     nc_file = @datadep_str string("Earth2014_$res/Earth2014.BED2014.$res.geod.grd")
 
-    @info """You are about to use the Earth2014 data at $res resolution.
+    hide_citation || @info """You are about to use the Earth2014 data at $res resolution.
           If you use it for research, please cite:
 
           - $(citation())
