@@ -1,13 +1,27 @@
 # Earth2014
 
+
 <p>
-  <a href="https://travis-ci.com/briochemc/Earth2014.jl">
-    <img alt="Build Status" src="https://img.shields.io/travis/com/briochemc/Earth2014.jl/master?label=OSX/Linux/Windows&logo=travis&logocolor=white&style=flat-square">
+  <a href="https://github.com/briochemc/Earth2014.jl/blob/master/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg?&style=flat-square">
+  </a>
+</p>
+
+<p>
+  <a href="https://github.com/briochemc/Earth2014.jl/actions">
+    <img src="https://img.shields.io/github/workflow/status/briochemc/Earth2014.jl/Mac%20OS%20X?label=OSX&logo=Apple&logoColor=white&style=flat-square">
+  </a>
+  <a href="https://github.com/briochemc/Earth2014.jl/actions">
+    <img src="https://img.shields.io/github/workflow/status/briochemc/Earth2014.jl/Linux?label=Linux&logo=Linux&logoColor=white&style=flat-square">
+  </a>
+  <a href="https://github.com/briochemc/Earth2014.jl/actions">
+    <img src="https://img.shields.io/github/workflow/status/briochemc/Earth2014.jl/Windows?label=Windows&logo=Windows&logoColor=white&style=flat-square">
   </a>
   <a href="https://codecov.io/gh/briochemc/Earth2014.jl">
     <img src="https://img.shields.io/codecov/c/github/briochemc/Earth2014.jl/master?label=Codecov&logo=codecov&logoColor=white&style=flat-square">
   </a>
 </p>
+
 
 Download topographic data for the globe.
 
