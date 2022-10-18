@@ -23,9 +23,11 @@ Original location of Earth2014
 http://ddfe.curtin.edu.au/models/earth2014/data_5min/gmt/earth2014.bed2014.5min.geod.grd
 """
 function register_Earth2014(;res="5min")
+    name = "Earth2014_$res"
+    haskey(DataDeps.registry, name) && return nothing
     register(
         DataDep(
-            "Earth2014_$res",
+            name,
             """
             Reference:
             - $(citation()).
